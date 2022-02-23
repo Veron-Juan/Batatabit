@@ -536,3 +536,39 @@ main{
     background-image: url(./assets/icons/orange-right-arrow.svg);
     vertical-align: text-bottom;
 }
+
+
+.plans-container--slider{
+    display: flex;
+    gap: 20px;
+    scroll-snap-align: center;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+
+
+}
+
+.flecha1{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url(./assets/icons/right.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    right: -18px;
+    
+}
+
+.flecha2{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url(./assets/icons/left-arrow.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: -18px;
+}
