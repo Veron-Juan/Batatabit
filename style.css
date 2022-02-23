@@ -393,9 +393,66 @@ main{
 .bitcoin-img-container{
     width: 100%;
     min-width: 320px;
-    height: 50vh;
-    background-image: url(./assets/img/bitcoinbaby2x.jpg);
+    height: 60vh;
+    background-image: url(./assets/img/bitcoinbaby2x.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
+}
+
+.bitcoin-img-container h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.main-plans-container{
+    width: 100%;
+    min-width: 320px;
+    background-color: #E5E5E5;
+    padding: 70px;
+    text-align: center;
+
+}
+
+.plans--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+
+.plans--title h2{
+    padding-top: 50px;
+    color: var(--warm-black);
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+  
+}
+
+.plans--title p{
+    padding-top: 30px;
+    color: #757575;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    padding-bottom: 40px;
+
+}
+
+.plans-container--card{
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: ;
+
 }
